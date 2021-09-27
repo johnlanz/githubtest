@@ -8,7 +8,7 @@ export default function Home() {
   const [contributors, setContributors] = useState(null)
   const [totalResults, setTotalResults] = useState(null)
   const [pages, setPages] = useState(null)
-  const octokit = new Octokit({ auth: `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` });
+  const octokit = new Octokit({ auth: `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` });
   let currentPage = 1
   let itemsPerPage = 30
   let searchItem = ""
