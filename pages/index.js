@@ -99,7 +99,7 @@ export default function Home() {
         <hr />
         {repositories.map((repo, i) => {
           return <div key={i}>
-            <a href={repo.url} target="_blank">{repo.full_name}</a>
+            <a href={repo.url} target="_blank" rel="noreferrer">{repo.full_name}</a>
             <p>{repo.description}</p>
             <button className="btn btn-secondary" onClick={contributorClick(repo)}>Contributors</button>
             <hr />
